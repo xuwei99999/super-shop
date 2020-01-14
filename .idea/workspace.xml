@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsTypePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/MessagePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/OrderDetailPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/OrderPojo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/remotes/origin/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\workspace\ideab\super-shop\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WNPzEkKmv4OIthK4Dy8h1wHN41" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShopGoodsApplication">
+    <configuration name="ShopDetailsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-details" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.ShopDetailsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopGoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-goods" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.ShopGoodsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.ShopOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopShopcarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-shopcar" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.ShopShopcarApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.ShopWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="" />
+      <created>1578987340001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578987340001</updated>
+      <workItem from="1578987343202" duration="2096000" />
+      <workItem from="1578989783613" duration="36000" />
+      <workItem from="1578990554243" duration="7152000" />
+    </task>
+    <task id="LOCAL-00001" summary="架构">
+      <created>1578989427614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578989427614</updated>
+    </task>
+    <task id="LOCAL-00002" summary="公共实体类">
+      <created>1578993711382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578993711382</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="架构" />
+    <MESSAGE value="公共实体类" />
+    <option name="LAST_COMMIT_MESSAGE" value="公共实体类" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Notifications" timestamp="1578994000354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1578994000354" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579001074228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579001074228" />
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1579002171353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579002171353" />
+    <state x="803" y="420" key="Gitee.ShareDialog" timestamp="1578990892469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="420" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990892469" />
+    <state x="824" y="413" width="273" height="213" key="Github.ShareDialog" timestamp="1578990591213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="824" y="413" width="273" height="213" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990591213" />
+    <state x="728" y="221" key="Github.UntrackedFilesDialog" timestamp="1578990641691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="728" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990641691" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1578989819982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578989819982" />
+    <state x="701" y="223" key="VCS.ChangeListViewerDialog" timestamp="1578993941416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="223" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578993941416" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579002087429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579002087429" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578993621460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578993621460" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579002074251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579002074251" />
+    <state x="753" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1578993942147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="384" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578993942147" />
+    <state x="701" y="261" key="git4idea.rebase.GitRebaseEditor" timestamp="1578993955106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="261" key="git4idea.rebase.GitRebaseEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578993955106" />
+  </component>
+</project>
