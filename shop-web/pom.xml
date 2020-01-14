@@ -16,9 +16,30 @@
 
     <properties>
         <java.version>1.8</java.version>
+
+
+        <!--shiro-->
+        <shiro.version>1.4.0</shiro.version>
+        <!--Encache 缓存 -->
+        <ehcache.version>2.10.2</ehcache.version>
+        <shiro-ehcache.version>1.4.0</shiro-ehcache.version>
+
     </properties>
 
+
+
     <dependencies>
+        <dependency>
+            <groupId>com.edu</groupId>
+            <artifactId>shop-api</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -39,6 +60,55 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>com.edu</groupId>
+            <artifactId>shop-api</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- shiro需要的jar包； -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-web</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-cas</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <!-- shiro和spring配合使用的包 -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+
+        <!--Encache 缓存 -->
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>${ehcache.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-ehcache</artifactId>
+            <version>${shiro-ehcache.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.edu</groupId>
+            <artifactId>shop-api</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <!--Encache 缓存 -->
+
+
     </dependencies>
 
     <build>
