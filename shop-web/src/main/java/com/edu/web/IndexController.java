@@ -17,7 +17,7 @@ public class IndexController {
 
     @RequestMapping("toindex")
     public String toIndex(UserPojo userPojo, Model model){
-
+        model.addAttribute("uaccount",userPojo.getUaccount());
         //一级类别
         List<GoodsTypePojo> goodsTypePojos = goodsTypeService.queryGoodsTypeOne(0);
 
