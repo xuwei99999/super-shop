@@ -1,0 +1,10 @@
+com\edu\pojo\UserPojo.class
+com\edu\pojo\OrderPojo.class
+com\edu\pojo\MessagePojo.class
+service\IGoodsService.class
+com\edu\service\IUserService.class
+com\edu\pojo\ShopCartPojo.class
+com\edu\pojo\GoodsTypePojo.class
+service\IGoodsTypeService.class
+com\edu\pojo\GoodsPojo.class
+com\edu\pojo\OrderDetailPojo.class
