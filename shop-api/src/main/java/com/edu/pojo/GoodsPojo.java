@@ -2,6 +2,7 @@ package com.edu.pojo;
 
 import javax.persistence.*;
 import java.io.Serializable;
+
 @Entity
 @Table(name = "shop_goods")
 public class GoodsPojo implements Serializable {
@@ -11,10 +12,10 @@ public class GoodsPojo implements Serializable {
     private String gname;   //商品名
     private String gimage;  //图片
     private double gprice; //价格
-    private int stock; //库存
+    private int gstock; //库存
     private int gtype; //商品类型
-    private int pageNum; //当前页
-    private int pageSize; //显示多少条记录
+    //private int pageNum; //当前页
+    //private int pageSize; //显示多少条记录
     public int getGid() {
         return gid;
     }
@@ -47,13 +48,7 @@ public class GoodsPojo implements Serializable {
         this.gprice = gprice;
     }
 
-    public int getStock() {
-        return stock;
-    }
 
-    public void setStock(int stock) {
-        this.stock = stock;
-    }
 
     public int getGtype() {
         return gtype;
@@ -63,19 +58,11 @@ public class GoodsPojo implements Serializable {
         this.gtype = gtype;
     }
 
-    public int getPageNum() {
-        return pageNum;
+    public int getGstock() {
+        return gstock;
     }
 
-    public void setPageNum(int pageNum) {
-        this.pageNum = pageNum;
-    }
-
-    public int getPageSize() {
-        return pageSize;
-    }
-
-    public void setPageSize(int pageSize) {
-        this.pageSize = pageSize;
+    public void setGstock(int gstock) {
+        this.gstock = gstock;
     }
 }
