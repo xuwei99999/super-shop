@@ -6,4 +6,7 @@ import java.util.List;
 
 public interface IGoodsService {
     public List<GoodsPojo> queryGoodsAll();
+
+    //根据gid查询
+    public GoodsPojo findGoodsPojoByGid(int gid);
 }

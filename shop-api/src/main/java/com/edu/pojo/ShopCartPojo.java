@@ -8,11 +8,12 @@ public class ShopCartPojo implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int cid;
+    private int uid;
     private int gid;
     private String gimage;
     private String gname;
     private double gprice;
-    private int cum;
+    private int cnum;
     private double ctotal;
 
     public int getCid() {
@@ -21,6 +22,14 @@ public class ShopCartPojo implements Serializable {
 
     public void setCid(int cid) {
         this.cid = cid;
+    }
+
+    public int getUid() {
+        return uid;
+    }
+
+    public void setUid(int uid) {
+        this.uid = uid;
     }
 
     public int getGid() {
@@ -55,12 +64,12 @@ public class ShopCartPojo implements Serializable {
         this.gprice = gprice;
     }
 
-    public int getCum() {
-        return cum;
+    public int getCnum() {
+        return cnum;
     }
 
-    public void setCum(int cum) {
-        this.cum = cum;
+    public void setCnum(int cnum) {
+        this.cnum = cnum;
     }
 
     public double getCtotal() {
@@ -68,6 +77,19 @@ public class ShopCartPojo implements Serializable {
     }
 
     public void setCtotal(double ctotal) {
+        this.ctotal = ctotal;
+    }
+
+    public ShopCartPojo() {
+    }
+
+    public ShopCartPojo(int uid, int gid, String gimage, String gname, double gprice, int cnum, double ctotal) {
+        this.uid = uid;
+        this.gid = gid;
+        this.gimage = gimage;
+        this.gname = gname;
+        this.gprice = gprice;
+        this.cnum = cnum;
         this.ctotal = ctotal;
     }
 }
