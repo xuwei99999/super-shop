@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="" />
+    <list default="true" id="587f2b7a-27ee-475b-9f0e-1f3d8e86ec88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/service/IGoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-details/src/main/java/com/edu/service/imp;/impl/DetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-details/src/main/java/com/edu/service/impl/DetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/repository/GoodsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/repository/GoodsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-goods/src/main/java/com/edu/service/impl/GoodsServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/千锋java1905/第四阶段/day78_springboot+restful+jpa/code/springboot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-api/src/main/java/service" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,7 +79,13 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\super-shop\shop-user\src\main\java\com\edu\service" />
+      <recent name="E:\Project\super-shop\shop-details\src\main\java\com\edu\service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\super-shop\shop-api\src\main\java\service" />
+      <recent name="E:\Project\super-shop\shop-api\src\main\java\com\edu\pojo" />
       <recent name="E:\Project\super-shop\shop-details\src\main\java\com\edu" />
     </key>
   </component>
@@ -210,7 +223,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -311,7 +324,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579179020433</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="商品详情页的展示以及购物车的初步完成">
+      <created>1579183149237</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579183149237</updated>
+    </task>
+    <task id="LOCAL-00013" summary="用户模块的简单修改">
+      <created>1579183173851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579183173851</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +358,9 @@
     <MESSAGE value="查询数据库中的推荐商品和促销商品的repository接口和service的实现类" />
     <MESSAGE value="主页面的商品部分展示以及商品详情页的跳转展示" />
     <MESSAGE value="公共pojo和接口的更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="公共pojo和接口的更新" />
+    <MESSAGE value="商品详情页的展示以及购物车的初步完成" />
+    <MESSAGE value="用户模块的简单修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户模块的简单修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1579072155618">
@@ -346,10 +375,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579145037339" />
-    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579179017324">
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579183284543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579179017324" />
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579183284543" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579165528182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
