@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="" />
+<<<<<<< HEAD
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,13 +35,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/千锋java1905/第四阶段/day78_springboot+restful+jpa/code/springboot" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
+<<<<<<< HEAD
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -59,6 +63,16 @@
         </RuleState>
       </list>
     </option>
+=======
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\super-shop\shop-details\src\main\java\com\edu" />
+    </key>
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
   </component>
   <component name="RunManager" selected="Spring Boot.ShopWebApplication">
     <configuration name="ShopDetailsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -104,7 +118,27 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Spring Boot.ShopDetailsApplication" />
+=======
+        <serviceView>
+          <option name="contentProportion" value="0.097402595" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +213,46 @@
       <option name="project" value="LOCAL" />
       <updated>1579180582330</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="9" />
+=======
+    <task id="LOCAL-00007" summary="商品详情">
+      <created>1579140399334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579140399334</updated>
+    </task>
+    <task id="LOCAL-00008" summary="增加goodsPojo中的gclass字段以及查询推荐商品、促销商品的service接口">
+      <created>1579178634171</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579178634171</updated>
+    </task>
+    <task id="LOCAL-00009" summary="查询数据库中的推荐商品和促销商品的repository接口和service的实现类">
+      <created>1579178747138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579178747138</updated>
+    </task>
+    <task id="LOCAL-00010" summary="主页面的商品部分展示以及商品详情页的跳转展示">
+      <created>1579178845230</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579178845230</updated>
+    </task>
+    <task id="LOCAL-00011" summary="公共pojo和接口的更新">
+      <created>1579179020433</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579179020433</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +280,131 @@
     <MESSAGE value="商品详情数据库查询和业务代码实现" />
     <MESSAGE value="用户模块更新" />
     <MESSAGE value="生活用品商城" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="生活用品商城" />
+=======
+    <MESSAGE value="页面的显示问题解决" />
+    <MESSAGE value="页面的显示问题解决以及shiro rememberme的问题" />
+    <MESSAGE value="商品详情" />
+    <MESSAGE value="增加goodsPojo中的gclass字段以及查询推荐商品、促销商品的service接口" />
+    <MESSAGE value="查询数据库中的推荐商品和促销商品的repository接口和service的实现类" />
+    <MESSAGE value="主页面的商品部分展示以及商品详情页的跳转展示" />
+    <MESSAGE value="公共pojo和接口的更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="公共pojo和接口的更新" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Notifications" timestamp="1579072155618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1579072155618" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579060090295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579060090295" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579145037339">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579145037339" />
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579179017324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579179017324" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579165528182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579165528182" />
+    <state x="803" y="420" key="Gitee.ShareDialog" timestamp="1578990892469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="420" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990892469" />
+    <state x="824" y="413" width="273" height="213" key="Github.ShareDialog" timestamp="1578990591213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="824" y="413" width="273" height="213" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990591213" />
+    <state x="728" y="221" key="Github.UntrackedFilesDialog" timestamp="1578990641691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="728" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990641691" />
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1579178648019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
+    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1579178648018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648018" />
+    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1579178648017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648017" />
+    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1579178648018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648018" />
+    <state width="1877" height="296" key="GridCell.Tab.1.bottom" timestamp="1579178648019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
+    <state width="1877" height="296" key="GridCell.Tab.1.center" timestamp="1579178648019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
+    <state width="1877" height="296" key="GridCell.Tab.1.left" timestamp="1579178648019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
+    <state width="1877" height="296" key="GridCell.Tab.1.right" timestamp="1579178648019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579178648019" />
+    <state width="1667" height="344" key="GridCell.Tab.2.bottom" timestamp="1579176508751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1667" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
+    <state width="1667" height="344" key="GridCell.Tab.2.center" timestamp="1579176508751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1667" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
+    <state width="1667" height="344" key="GridCell.Tab.2.left" timestamp="1579176508751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1667" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
+    <state width="1667" height="344" key="GridCell.Tab.2.right" timestamp="1579176508751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1667" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579176508751" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1579170636498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579170636498" />
+    <state x="701" y="223" key="VCS.ChangeListViewerDialog" timestamp="1578993941416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="223" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578993941416" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579179046968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579179046968" />
+    <state x="687" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1579139724047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579139724047" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579072133392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579072133392" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579140415818">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579140415818" />
+    <state x="753" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1578993942147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="384" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578993942147" />
+    <state x="701" y="261" key="git4idea.rebase.GitRebaseEditor" timestamp="1578993955106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="261" key="git4idea.rebase.GitRebaseEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578993955106" />
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
   </component>
 </project>
