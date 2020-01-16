@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="页面的显示问题解决以及shiro rememberme的问题">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/shiro/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/src/main/resources/templates/proinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/resources/templates/proinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/proinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/templates/proinfo.html" afterDir="false" />
-    </list>
+    <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="页面的显示问题解决以及shiro rememberme的问题" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +235,7 @@
       <workItem from="1578990554243" duration="10811000" />
       <workItem from="1579071844115" duration="245000" />
       <workItem from="1579095364876" duration="458000" />
-      <workItem from="1579135584407" duration="1693000" />
+      <workItem from="1579135584407" duration="2451000" />
     </task>
     <task id="LOCAL-00001" summary="架构">
       <created>1578989427614</created>
