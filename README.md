@@ -4,7 +4,7 @@
 
 1.用户模块；（登录，注册） ；SSM
 
-2.商品模块； （展示商品，查询商品）；springboot+Jpa
+2.商品模块； （查询商品）；springboot+Jpa
 
 3.订单模块；(所有订单，订单详情)  springboot+Jpa
 

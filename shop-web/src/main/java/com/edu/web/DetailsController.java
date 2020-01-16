@@ -16,8 +16,8 @@ public class DetailsController {
 
     //此方法跳转到商品指定的商品详情页面
     @RequestMapping("ToDetails")
-    public String ToDetails(Model model){
-        GoodsPojo goodsPojo=detailsService.findByGid(2);
+    public String ToDetails(int gid,Model model){
+        GoodsPojo goodsPojo=detailsService.findByGid(gid);
         model.addAttribute("goods",goodsPojo);
         System.out.println(goodsPojo);
         return "proinfo";

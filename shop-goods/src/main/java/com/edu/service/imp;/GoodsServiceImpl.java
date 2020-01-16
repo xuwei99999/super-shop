@@ -13,9 +13,10 @@ public class GoodsServiceImpl implements IGoodsService {
     @Autowired
     GoodsRepository goodsRepository;
 
+    //推荐商品和促销产品查询展示
     @Override
-    public List<GoodsPojo> queryGoodsAll() {
-        return goodsRepository.findAll();
+    public List<GoodsPojo> findAllByGclass(int gclass) {
+        return goodsRepository.findAllByGclass(gclass);
     }
 
     @Override
