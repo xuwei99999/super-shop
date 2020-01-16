@@ -14,7 +14,11 @@ public class GoodsPojo implements Serializable {
     private double gprice; //价格
     private int gstock; //库存
     private int gtype; //商品类型
+<<<<<<< HEAD
+    private int gclass;
+=======
     private int gclass; //1.推荐产品2.促销产品
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
     //private int pageNum; //当前页
     //private int pageSize; //显示多少条记录
     public int getGid() {
@@ -71,5 +75,13 @@ public class GoodsPojo implements Serializable {
 
     public void setGstock(int gstock) {
         this.gstock = gstock;
+    }
+
+    public int getGclass() {
+        return gclass;
+    }
+
+    public void setGclass(int gclass) {
+        this.gclass = gclass;
     }
 }
