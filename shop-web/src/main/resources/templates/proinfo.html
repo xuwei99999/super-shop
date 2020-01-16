@@ -14,7 +14,12 @@
 <body>
  <div class="mianCont">
   <div class="top">
-   <span>您好！欢迎来到17商城 请&nbsp;<a href="login.html">[登录]</a>&nbsp;<a href="reg.html">[注册]</a></span>
+   <label th:if="${session.uaccount == null}">
+    <span>您好！欢迎来到17商城 请&nbsp;<a href="login.html">[登录]</a>&nbsp;<a href="reg.html">[注册]</a></span>
+   </label>
+   <label th:if="${session.uaccount != null}">
+    <span><label th:text="${session.uaccount}"></label>,您好！欢迎来到17商城</span>
+   </label>
    <span class="topRight">
     <a href="vip.html">我的17</a>&nbsp;| 
     <a href="order.html">我的订单</a>&nbsp;| 
@@ -229,36 +234,34 @@
    <div class="contRight" style="border:0;">
    <div class="proBox">
    <div id="tsShopContainer">
-	<div id="tsImgS"><a href="../static/images/01.jpg}" title="../static/images" class="MagicZoom" id="MagicZoom"><img width="300" height="300" th:src="@{/images/01.jpg}" /></a></div>
+	<div id="tsImgS"><a th:href="@{${goods.gimage}}" th:title="@{/images}" class="MagicZoom" id="MagicZoom"><img width="300" height="300" th:src="@{${goods.gimage}}" /></a></div>
 	<div id="tsPicContainer">
 		<div id="tsImgSArrL" onclick="tsScrollArrLeft()"></div>
 		<div id="tsImgSCon">
 			<ul>
-				<li onclick="showPic(0)" rel="MagicZoom" class="tsSelectImg"><img height="42" width="42" th:src="@{/images/01.jpg}" tsImgS="../static/images/01.jpg}" /></li>
-				<li onclick="showPic(1)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/02.jpg}" tsImgS="../static/images/02.jpg}" /></li>
-				<li onclick="showPic(2)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/03.jpg}" tsImgS="../static/images/03.jpg}" /></li>
-				<li onclick="showPic(3)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/04.jpg}" tsImgS="../static/images/04.jpg}" /></li>
-				<li onclick="showPic(4)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/05.jpg}" tsImgS="../static/images/05.jpg}" /></li>
-				<li onclick="showPic(5)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/06.jpg}" tsImgS="../static/images/06.jpg}" /></li>
-				<li onclick="showPic(6)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/07.jpg}" tsImgS="../static/images/07.jpg}" /></li>
-				<li onclick="showPic(7)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/08.jpg}" tsImgS="../static/images/08.jpg}" /></li>
-				<li onclick="showPic(8)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/09.jpg}" tsImgS="../static/images/09.jpg}" /></li>
-<<<<<<< HEAD
-				<li onclick="showPic(9)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/10.gif}" tsImgS="../static/images/10.gif}" /></li>
-				<li onclick="showPic(10)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/11.gif}" tsImgS="../static/images/10.gif}" /></li>
-=======
-				<li onclick="showPic(9)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/10.gif}" tsImgS="../static/images/10.gif}" /></li>
-				<li onclick="showPic(10)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/11.gif}" tsImgS="../static/images/10.gif}" /></li>
->>>>>>> a885c8e22e34ae8f1337ed0d94acc3dc4de9ac34
+<!--				<li onclick="showPic(0)" rel="MagicZoom" class="tsSelectImg"><img height="42" width="42" th:src="@{/images/01.jpg}" th:tsImgS="@{/images/01.jpg}" /></li>-->
+<!--				<li onclick="showPic(1)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/02.jpg}" th:tsImgS="@{/images/02.jpg}" /></li>-->
+<!--				<li onclick="showPic(2)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/03.jpg}" th:tsImgS="@{/images/03.jpg}" /></li>-->
+<!--				<li onclick="showPic(3)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/04.jpg}" th:tsImgS="@{/images/04.jpg}" /></li>-->
+<!--				<li onclick="showPic(4)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/05.jpg}" th:tsImgS="@{/images/05.jpg}" /></li>-->
+<!--				<li onclick="showPic(5)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/06.jpg}" th:tsImgS="@{/images/06.jpg}" /></li>-->
+<!--				<li onclick="showPic(6)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/07.jpg}" th:tsImgS="@{/images/07.jpg}" /></li>-->
+<!--				<li onclick="showPic(7)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/08.jpg}" th:tsImgS="@{/images/08.jpg}" /></li>-->
+<!--				<li onclick="showPic(8)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/09.jpg}" th:tsImgS="@{/images/09.jpg}" /></li>-->
+<!--				<li onclick="showPic(9)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/10.gif}" th:tsImgS="@{/images/10.gif}" /></li>-->
+<!--				<li onclick="showPic(10)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/11.gif}" th:tsImgS="@{/images/10.gif}" /></li>-->
+<!--				<li onclick="showPic(9)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/10.gif}" th:tsImgS="@{/images/10.gif}" /></li>-->
+<!--				<li onclick="showPic(10)" rel="MagicZoom"><img height="42" width="42" th:src="@{/images/11.gif}" th:tsImgS="@{/images/10.gif}" /></li>-->
+                    <li onclick="showPic(0)" rel="MagicZoom" class="tsSelectImg"><img height="42" width="42" th:src="@{${goods.gimage}}" th:tsImgS="@{${goods.gimage}}" /></li>
 			</ul>
+
 		</div>
 		<div id="tsImgSArrR" onclick="tsScrollArrRight()"></div>
 	</div>
-<<<<<<< HEAD
 	<img class="MagicZoomLoading" width="16" height="16" th:src="@{/images/loading.gif}" alt="Loading..." />
-=======
+
 	<img class="MagicZoomLoading" width="16" height="16" th:src="@{/images/loading.gif}" alt="Loading..." />
->>>>>>> a885c8e22e34ae8f1337ed0d94acc3dc4de9ac34
+
     <script src="js/ShopShow.js"></script>
     </div><!--tsShopContainer/-->
     <div class="proBoxRight">
@@ -267,7 +270,8 @@
      <div>商品编号: &ensp; <span th:text="${goods.gid}"> </span></div>
      <div>会员价： &ensp; <strong th:text="${goods.gprice}" class="red"></strong></div>
      <div>单位：袋 </div>
-     <div>库存：<strong th:text="${goods.gstock}" class="red"></strong> 从上海发货</div>
+     <div>库存：<strong th:text="${goods.gstock}" class="red"></strong></div>
+     <div>从上海发货</div>
      <ul class="rongliang">
       <li>100ml</li>
       <li>200ml</li>
@@ -281,7 +285,7 @@
      </div><!--shuliang2/-->
      <div class="gc">
       <a href="order.html"><img th:src="@{/images/goumai.png}" width="117"  height="36" /></a>&nbsp;&nbsp;
-      <a href="#"><img th:src="@{/images/shoucang.png}" width="117" height="36" /></a>
+      <a href="javascript:void(0)" onclick="addShopCar(this)" th:gid="${goods.gid}"><img th:src="@{/images/shoucang.png}" width="117" height="36"  /></a>
      </div><!--gc/-->    
     </div><!--proRight/-->
     <div class="clears"></div>
@@ -308,13 +312,19 @@
     Tv Channel:<br />
     HBO，TVB，BBC，DISCOVERY，CINEMAX，
     </div><!--fangPar/-->
-    <img th:src="@{/images/ban1.jpg}" width="756" height="310" />
+    <img th:src="@{${goods.gimage}}" width="756" height="310" />
     </div><!--fangList/-->
     <div class="fangList">
-     商品参数
+     <h2 style="color: red">本业务由八千万项目组主持开发,具体参数我们也不知道,反正你又不买!</h2><br/>
+     <h2 style="color: red">为了好看,放一张图片吧!</h2><br/>
+     <img width="756" height="310"  th:src="@{${goods.gimage}}" />
     </div><!--fangList/-->
     <div class="fangList">
-     商品评论
+     <h2 style="color: aqua">甲:我的天哪!这也太好了吧,买了相当不亏!</h2><br/>
+     <h2 style="color: aqua">乙:嗯!真的很不错,虽然我不知道我买的是啥,反正就是不错</h2><br/>
+     <h2 style="color: aqua">丙:这个网站太好了,赶紧买赶紧买,买的不亏</h2><br/>
+     <h2 style="color: aqua">丁:虽然我不是真人,但楼上是真的狗,看我微笑以对</h2><br/>
+     <img th:src="@{http://t7.baidu.com/it/u=3616242789,1098670747&fm=79&app=86&size=h300&n=0&g=4n&f=jpeg?sec=1579763472&t=dc9fae1650be375a26d962f1f84ad6fe}" width="220" height="260" />
     </div><!--fangList/-->
     <div class="fangList">
      <img th:src="@{/images/rdPro1.jpg}" width="132" height="129" /><br /><br />
@@ -358,7 +368,7 @@
   </div><!--inHelp/-->
   <div class="footer">
    <p>
-   <a href="#">进入17官网</a>&nbsp;|&nbsp;
+   <a href="javascript:void(0)">进入17官网</a>&nbsp;|&nbsp;
    <a href="index.html">商城首页</a>&nbsp;|&nbsp;
    <a href="product.html">促销中心</a>&nbsp;|&nbsp;
    <a href="order.html">我的订单</a>&nbsp;|&nbsp;
@@ -367,10 +377,38 @@
    <a href="help.htmll">帮助中心</a>
    </p>
    <p>
-    版权所有：8000W项目商城 版权所有  Copyright 2015-2020   沪ICP备00000000号
+    版权所有：8000W项目商城 版权所有  Copyright 2015-2020   苏ICP备00000000号
    </p>
   </div><!--footer/-->
  </div><!--mianCont/-->
  <a href="#" class="backTop">&nbsp;</a>
 </body>
+
+<script>
+   function addShopCar(objInfo) {
+      // var gid=$(this).attr("gid");
+    var gid= $(objInfo).attr("gid");
+    alert(gid)
+
+    $.ajax({
+          type:"post",
+          url:"addShopCar",
+          data: {"gid":gid},
+          success:function (d) {
+             alert(d)
+          }
+    })
+
+
+
+
+
+
+
+
+   }
+
+</script>
+
+
 </html>
