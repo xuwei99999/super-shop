@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,7 @@
       <workItem from="1579142602834" duration="4285000" />
       <workItem from="1579153722123" duration="16023000" />
       <workItem from="1579172402057" duration="6783000" />
-      <workItem from="1579179270049" duration="1282000" />
+      <workItem from="1579179270049" duration="1934000" />
     </task>
     <task id="LOCAL-00001" summary="pojo的更新和购物车接口的添加">
       <created>1579180180308</created>
@@ -174,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579180548653</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="生活用品商城">
+      <created>1579180582330</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579180582330</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +206,7 @@
     <MESSAGE value="pojo和公共接口的更新" />
     <MESSAGE value="商品详情数据库查询和业务代码实现" />
     <MESSAGE value="用户模块更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户模块更新" />
+    <MESSAGE value="生活用品商城" />
+    <option name="LAST_COMMIT_MESSAGE" value="生活用品商城" />
   </component>
 </project>
