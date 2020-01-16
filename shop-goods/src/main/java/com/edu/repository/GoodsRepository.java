@@ -9,4 +9,9 @@ public interface GoodsRepository extends JpaRepository<GoodsPojo,Integer> {
 
     public List<GoodsPojo> findAll();
 
+    //根据gid查询
+    public GoodsPojo findGoodsPojoByGid(int gid);
+
+
+
 }

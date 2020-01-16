@@ -17,4 +17,9 @@ public class GoodsServiceImpl implements IGoodsService {
     public List<GoodsPojo> queryGoodsAll() {
         return goodsRepository.findAll();
     }
+
+    @Override
+    public GoodsPojo findGoodsPojoByGid(int gid) {
+        return goodsRepository.findGoodsPojoByGid(gid);
+    }
 }
