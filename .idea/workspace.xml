@@ -7,27 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="页面的显示问题解决以及shiro rememberme的问题">
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsTypePojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/MessagePojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderDetailPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/ShopCartPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/UserPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/shop-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-details/src/main/java/com/edu/ShopDetailsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-details/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/shop-user.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/java/com/edu/shiro/ShiroConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-web/src/main/resources/templates/proinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/resources/templates/proinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/super-shop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/proinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/target/classes/templates/proinfo.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-web/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,7 +77,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -257,6 +242,7 @@
       <workItem from="1578990554243" duration="10811000" />
       <workItem from="1579071844115" duration="245000" />
       <workItem from="1579095364876" duration="458000" />
+      <workItem from="1579135584407" duration="1693000" />
     </task>
     <task id="LOCAL-00001" summary="架构">
       <created>1578989427614</created>
@@ -300,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579071920192</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="商品详情">
+      <created>1579139907563</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579139907563</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +304,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -326,7 +321,8 @@
     <MESSAGE value="生活用品商城" />
     <MESSAGE value="页面的显示问题解决" />
     <MESSAGE value="页面的显示问题解决以及shiro rememberme的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面的显示问题解决以及shiro rememberme的问题" />
+    <MESSAGE value="商品详情" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品详情" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1579072155618">
