@@ -7,144 +7,184 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="页面的显示问题解决以及shiro rememberme的问题">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/service/IGoodsTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsTypePojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/MessagePojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderDetailPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/ShopCartPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/UserPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/shop-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/ShopWebApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/shiro/ShiroRealm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/web/GoodsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/web/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/com/edu/web/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/css/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/backtop.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/ban1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/ban2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/ban3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/ban4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/ban5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/baocun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/bgtop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/caifutong.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/car1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/car2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/chengnuo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/duihao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/fangyuan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/fangyuan_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/flListimg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/gouimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/goumai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/help1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/help2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/help3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/help4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/help5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/hengfu1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/hengfu2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/home2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/i4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/jia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/jian.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/lajio.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/loginLeft.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/loginLogo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/logoinimg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/mychunlv.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/picshopArr.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/pro1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/queren.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/rdPro1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/rdPro2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/rdPro3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/rdPro4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/rdPro5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/rdRight.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/reg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/scrollPicbg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/shoucang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/sub.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/subimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/telBack.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/tijao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yanzheng.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/yin9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/youjian.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/zhifu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/zhifubao.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/zuojian2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/zuojian2_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/images/zuojian3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/js/MagicZoom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/js/ShopShow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/js/js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/js/wb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/static/reg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/biaoge.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/help.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/message.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/order2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/orderDetails.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/proinfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/vip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/vipAdress.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/vipExit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/vipMy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/vipOrder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/vipPwd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/classes/templates/vipTuihuo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/target/test-classes/com/edu/ShopWebApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/realm/MyRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/realm/MyRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/HikariCP-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/activation-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ant-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ant-launcher-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/asm-5.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/aspectjrt-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/aspectjweaver-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/byte-buddy-1.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/c3p0-0.9.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/cas-client-core-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/cglib-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-beanutils-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-collections4-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-email-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-lang3-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-math3-3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/curator-client-2.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/curator-framework-2.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/druid-1.1.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dubbo-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dubbo-spring-boot-autoconfigure-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dubbo-spring-boot-starter-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ehcache-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ehcache-core-2.6.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/guava-16.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/hibernate-core-5.4.9.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/httpcore-4.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jackson-annotations-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jackson-core-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jackson-databind-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jakarta.persistence-api-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jakarta.transaction-api-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jandex-2.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javax.mail-1.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/joda-time-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jsqlparser-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/netty-3.10.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/pagehelper-5.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/poi-3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/quartz-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-cache-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-cas-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-config-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-ehcache-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-event-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-lang-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-spring-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-web-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shop-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/slf4j-log4j12-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/snakeyaml-1.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-aspects-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-autoconfigure-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-aop-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-data-jpa-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-jdbc-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-logging-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-data-commons-2.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-data-jpa-2.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-orm-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/zookeeper-3.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/login.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -185,7 +225,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -205,11 +244,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Project\super-shop\shop-web\src\main\resources\templates" />
-    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopWebApplication">
     <configuration name="ShopDetailsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -362,8 +396,7 @@
       <workItem from="1578987343202" duration="2096000" />
       <workItem from="1578989783613" duration="36000" />
       <workItem from="1578990554243" duration="10811000" />
-      <workItem from="1579071844115" duration="19756000" />
-      <workItem from="1579136042453" duration="1317000" />
+      <workItem from="1579071844115" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="架构">
       <created>1578989427614</created>
@@ -407,42 +440,7 @@
       <option name="project" value="LOCAL" />
       <updated>1579071920192</updated>
     </task>
-    <task id="LOCAL-00007" summary="公共pojo以及接口的更新">
-      <created>1579089611801</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1579089611801</updated>
-    </task>
-    <task id="LOCAL-00008" summary="商品类别信息的获取">
-      <created>1579089690044</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1579089690044</updated>
-    </task>
-    <task id="LOCAL-00009" summary="用户登录注册的简单修改">
-      <created>1579089745699</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1579089745699</updated>
-    </task>
-    <task id="LOCAL-00010" summary="商品类别信息在后台获取并在前台展示">
-      <created>1579089806360</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1579089806360</updated>
-    </task>
-    <task id="LOCAL-00011" summary="公共pojo和接口的更新">
-      <created>1579138928597</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1579138928597</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,34 +455,25 @@
     <MESSAGE value="生活用品商城" />
     <MESSAGE value="页面的显示问题解决" />
     <MESSAGE value="页面的显示问题解决以及shiro rememberme的问题" />
-    <MESSAGE value="公共pojo以及接口的更新" />
-    <MESSAGE value="商品类别信息的获取" />
-    <MESSAGE value="用户登录注册的简单修改" />
-    <MESSAGE value="商品类别信息在后台获取并在前台展示" />
-    <MESSAGE value="公共pojo和接口的更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="公共pojo和接口的更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面的显示问题解决以及shiro rememberme的问题" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1579081016854">
+    <state x="552" y="178" key="#Notifications" timestamp="1579072155618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1579081016854" />
-    <state x="552" y="178" key="#Notifications" timestamp="1579072418628">
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1579072155618" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579060090295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1579072418628" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579092314555">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579060090295" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579006818791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579092314555" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579086419529">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579006818791" />
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579071914973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579086419529" />
-    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2" timestamp="1579139098548">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579139098548" />
+    <state x="560" y="110" width="1060" height="820" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579071914973" />
     <state x="803" y="420" key="Gitee.ShareDialog" timestamp="1578990892469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -497,86 +486,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578990641691" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1579094435931">
+    <state width="938" height="368" key="GridCell.Tab.0.bottom" timestamp="1579072094427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579094435931" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1579094435931">
+    <state width="938" height="368" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579072094427" />
+    <state width="938" height="368" key="GridCell.Tab.0.center" timestamp="1579072094426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579094435931" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1579094435931">
+    <state width="938" height="368" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579072094426" />
+    <state width="938" height="368" key="GridCell.Tab.0.left" timestamp="1579072094426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579094435931" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1579094435931">
+    <state width="938" height="368" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579072094426" />
+    <state width="938" height="368" key="GridCell.Tab.0.right" timestamp="1579072094426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579094435931" />
-    <state width="1877" height="292" key="GridCell.Tab.1.bottom" timestamp="1579094435931">
+    <state width="938" height="368" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579072094426" />
+    <state width="1877" height="368" key="GridCell.Tab.1.bottom" timestamp="1579071817620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579094435931" />
-    <state width="1877" height="292" key="GridCell.Tab.1.center" timestamp="1579094435931">
+    <state width="1877" height="368" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579071817620" />
+    <state width="1877" height="368" key="GridCell.Tab.1.center" timestamp="1579071817620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579094435931" />
-    <state width="1877" height="292" key="GridCell.Tab.1.left" timestamp="1579094435931">
+    <state width="1877" height="368" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579071817620" />
+    <state width="1877" height="368" key="GridCell.Tab.1.left" timestamp="1579071817620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579094435931" />
-    <state width="1877" height="292" key="GridCell.Tab.1.right" timestamp="1579094435931">
+    <state width="1877" height="368" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579071817620" />
+    <state width="1877" height="368" key="GridCell.Tab.1.right" timestamp="1579071817620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579094435931" />
-    <state width="1667" height="419" key="GridCell.Tab.2.bottom" timestamp="1579094285596">
+    <state width="1877" height="368" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579071817620" />
+    <state width="1667" height="282" key="GridCell.Tab.2.bottom" timestamp="1579071816168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="419" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579094285596" />
-    <state width="1667" height="419" key="GridCell.Tab.2.center" timestamp="1579094285596">
+    <state width="1667" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579071816168" />
+    <state width="1667" height="282" key="GridCell.Tab.2.center" timestamp="1579071816168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="419" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579094285596" />
-    <state width="1667" height="419" key="GridCell.Tab.2.left" timestamp="1579094285596">
+    <state width="1667" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579071816168" />
+    <state width="1667" height="282" key="GridCell.Tab.2.left" timestamp="1579071816168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="419" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579094285596" />
-    <state width="1667" height="419" key="GridCell.Tab.2.right" timestamp="1579094285596">
+    <state width="1667" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579071816168" />
+    <state width="1667" height="282" key="GridCell.Tab.2.right" timestamp="1579071816168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1667" height="419" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579094285596" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1579079529612">
+    <state width="1667" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579071816168" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1578989819982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579079529612" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1579079443398">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579079443398" />
-    <state width="498" height="468" key="SwitcherDM" timestamp="1579089017519">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="498" height="468" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1579089017519" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578989819982" />
     <state x="701" y="223" key="VCS.ChangeListViewerDialog" timestamp="1578993941416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="223" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578993941416" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579094981358">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579072111705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579094981358" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579138637598">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579072111705" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579072133392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579138637598" />
-    <state x="744" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1579138674068">
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579072133392" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579072148128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="744" y="311" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579138674068" />
-    <state x="657" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579138648592">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579138648592" />
+    <state x="657" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579072148128" />
     <state x="753" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1578993942147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -585,13 +562,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="261" key="git4idea.rebase.GitRebaseEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578993955106" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1579080672602">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579080672602" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579074259672">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579074259672" />
   </component>
 </project>
