@@ -1,5 +1,6 @@
 package com.edu.repository;
 
+import com.edu.pojo.GoodsPojo;
 import com.edu.pojo.GoodsTypePojo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -11,5 +12,7 @@ public interface GoodsTypeRepository extends JpaRepository<GoodsTypePojo,Integer
 
     //查询所有商品类别
     public List<GoodsTypePojo> findAll();
+
+
 
 }

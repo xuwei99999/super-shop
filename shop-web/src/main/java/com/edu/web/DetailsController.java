@@ -13,6 +13,8 @@ public class DetailsController {
     @Reference
     DetailsService detailsService;
 
+
+    //此方法跳转到商品指定的商品详情页面
     @RequestMapping("ToDetails")
     public String ToDetails(int gid,Model model){
         GoodsPojo goodsPojo=detailsService.findByGid(gid);
@@ -20,6 +22,9 @@ public class DetailsController {
         System.out.println(goodsPojo);
         return "proinfo";
     }
+
+    //商品详情页面中的加入收藏方法
+
 
 
 }

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="shop-user:war" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="" />
+<<<<<<< HEAD
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,53 +19,51 @@
       </list>
     </option>
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="ONTO" value="refs/remotes/origin/master" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\workspace\ideab\super-shop\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="ProjectId" id="1WNPzEkKmv4OIthK4Dy8h1wHN41" />
+  <component name="ProjectId" id="1WSUg8hxqgS8FyiVuaCRRqjs7KM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/千锋java1905/第四阶段/day78_springboot+restful+jpa/code/springboot" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
+<<<<<<< HEAD
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\ideab\shop\super-shop\shop-web\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+=======
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -75,10 +72,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Project\super-shop\shop-details\src\main\java\com\edu" />
     </key>
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
   </component>
   <component name="RunManager" selected="Spring Boot.ShopWebApplication">
-    <configuration name="ShopDetailsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ShopDetailsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop-details" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.ShopDetailsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,93 +116,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/user/" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
-      <deployment>
-        <artifact name="shop-user:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/user" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_super-shop_2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51007" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="shop-user:war" />
-        </option>
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Spring Boot.ShopDetailsApplication" />
-      <item itemvalue="Spring Boot.ShopGoodsApplication" />
-      <item itemvalue="Spring Boot.ShopOrderApplication" />
-      <item itemvalue="Spring Boot.ShopShopcarApplication" />
-      <item itemvalue="Spring Boot.ShopWebApplication" />
-      <item itemvalue="Tomcat Server.tomcat" />
-    </list>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+    <recent_temporary>
       <list>
+<<<<<<< HEAD
+        <item itemvalue="Spring Boot.ShopDetailsApplication" />
+=======
         <serviceView>
           <option name="contentProportion" value="0.097402595" />
           <treeState>
@@ -216,8 +138,9 @@
             <select />
           </treeState>
         </serviceView>
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -225,57 +148,74 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="" />
-      <created>1578987340001</created>
+      <created>1579142598361</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578987340001</updated>
-      <workItem from="1578987343202" duration="2096000" />
-      <workItem from="1578989783613" duration="36000" />
-      <workItem from="1578990554243" duration="10811000" />
-      <workItem from="1579071844115" duration="245000" />
+      <updated>1579142598361</updated>
+      <workItem from="1579142602834" duration="4285000" />
+      <workItem from="1579153722123" duration="16023000" />
+      <workItem from="1579172402057" duration="6783000" />
+      <workItem from="1579179270049" duration="1934000" />
     </task>
-    <task id="LOCAL-00001" summary="架构">
-      <created>1578989427614</created>
+    <task id="LOCAL-00001" summary="pojo的更新和购物车接口的添加">
+      <created>1579180180308</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1578989427614</updated>
+      <updated>1579180180308</updated>
     </task>
-    <task id="LOCAL-00002" summary="公共实体类">
-      <created>1578993711382</created>
+    <task id="LOCAL-00002" summary="商品更新">
+      <created>1579180269898</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1578993711382</updated>
+      <updated>1579180269898</updated>
     </task>
-    <task id="LOCAL-00003" summary="公共实体类">
-      <created>1579002057374</created>
+    <task id="LOCAL-00003" summary="web购物车功能实现">
+      <created>1579180346495</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1579002057374</updated>
+      <updated>1579180346495</updated>
     </task>
-    <task id="LOCAL-00004" summary="生活用品商城">
-      <created>1579002204847</created>
+    <task id="LOCAL-00004" summary="购物车数据库查询以及业务代码实现">
+      <created>1579180390051</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1579002204847</updated>
+      <updated>1579180390051</updated>
     </task>
-    <task id="LOCAL-00005" summary="生活用品商城">
-      <created>1579002289716</created>
+    <task id="LOCAL-00005" summary="pojo和公共接口的更新">
+      <created>1579180461084</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1579002289716</updated>
+      <updated>1579180461084</updated>
     </task>
-    <task id="LOCAL-00006" summary="页面的显示问题解决以及shiro rememberme的问题">
-      <created>1579071920192</created>
+    <task id="LOCAL-00006" summary="商品详情数据库查询和业务代码实现">
+      <created>1579180497742</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1579071920192</updated>
+      <updated>1579180497742</updated>
     </task>
+    <task id="LOCAL-00007" summary="用户模块更新">
+      <created>1579180548653</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579180548653</updated>
+    </task>
+    <task id="LOCAL-00008" summary="生活用品商城">
+      <created>1579180582330</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579180582330</updated>
+    </task>
+<<<<<<< HEAD
+    <option name="localTasksCounter" value="9" />
+=======
     <task id="LOCAL-00007" summary="商品详情">
       <created>1579140399334</created>
       <option name="number" value="00007" />
@@ -312,18 +252,37 @@
       <updated>1579179020433</updated>
     </task>
     <option name="localTasksCounter" value="12" />
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="架构" />
-    <MESSAGE value="公共实体类" />
+    <MESSAGE value="pojo的更新和购物车接口的添加" />
+    <MESSAGE value="商品更新" />
+    <MESSAGE value="web购物车功能实现" />
+    <MESSAGE value="购物车数据库查询以及业务代码实现" />
+    <MESSAGE value="pojo和公共接口的更新" />
+    <MESSAGE value="商品详情数据库查询和业务代码实现" />
+    <MESSAGE value="用户模块更新" />
     <MESSAGE value="生活用品商城" />
+<<<<<<< HEAD
+    <option name="LAST_COMMIT_MESSAGE" value="生活用品商城" />
+=======
     <MESSAGE value="页面的显示问题解决" />
     <MESSAGE value="页面的显示问题解决以及shiro rememberme的问题" />
     <MESSAGE value="商品详情" />
@@ -446,5 +405,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="261" key="git4idea.rebase.GitRebaseEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578993955106" />
+>>>>>>> af353e616d2702817808a99a30263fc7c30d021c
   </component>
 </project>
