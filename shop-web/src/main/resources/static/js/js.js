@@ -7,6 +7,27 @@ $(function(){
 		},function(){
 		$(this).removeClass("inProNavStyle");
 		$(this).children(".chilInPorNav").stop(true,true).hide();})
+
+	$.ajax({
+		url:"queryPromotions",
+		dataType:"json",
+		data:{"gclass":"0"},
+		success:function (data) {
+			var content = "";
+			$.each(data,function (index,goods) {
+				console.log(goods)
+				content += "<dl>" +
+					"<dt><a href='/web/ToDetails?gid="+goods.gid+"'><img src='"+goods.gimage+"' width='132' height='129'></a></dt>" +
+					"<dd>"+goods.gname+"</dd>" +
+					"<dd class='cheng'>￥"+goods.gprice+"/袋</dd>" +
+					"</dl>"
+			})
+			$(".rdProBox").empty();
+			$(".rdProBox").append(content);
+		}
+	})
+
+
 	//rdList
 	$(".rdList li:first").addClass("rdListStyle");
 	$(".rdProBox:first").show();
@@ -14,7 +35,29 @@ $(function(){
 		$(this).addClass("rdListStyle").siblings("li").removeClass("rdListStyle");
 		var index=$(this).index();
 		$(".rdProBox").eq(index).show().siblings(".rdProBox").hide();
-		})	
+		console.log(index);
+
+		$.ajax({
+			url:"queryPromotions",
+			dataType:"json",
+			data:{"gclass":index},
+			success:function (data) {
+				var content = "";
+				$.each(data,function (index,goods) {
+					console.log(goods)
+					content += "<dl>" +
+						"<dt><a href='/web/ToDetails?gid="+goods.gid+"'><img src='"+goods.gimage+"' width='132' height='129'></a></dt>" +
+						"<dd>"+goods.gname+"</dd>" +
+						"<dd class='cheng'>￥"+goods.gprice+"/袋</dd>" +
+						"</dl>"
+				})
+				$(".rdProBox").empty();
+				$(".rdProBox").append(content);
+			}
+		})
+
+		})
+
 	//.rdPro dl
 	$(".rdPro dl").hover(function(){
 		$(this).addClass("rddlstyle");

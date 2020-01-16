@@ -12,7 +12,12 @@
 <body>
  <div class="mianCont">
   <div class="top">
-   <span>您好！欢迎来到17商城 请&nbsp;<a href="login.html">[登录]</a>&nbsp;<a href="reg.html">[注册]</a></span>
+   <label th:if="${session.uaccount == null}">
+    <span>您好！欢迎来到17商城 请&nbsp;<a href="login.html">[登录]</a>&nbsp;<a href="reg.html">[注册]</a></span>
+   </label>
+   <label th:if="${session.uaccount != null}">
+    <span><label th:text="${session.uaccount}"></label>,您好！欢迎来到17商城</span>
+   </label>
    <span class="topRight">
     <a href="vip.html">我的17</a>&nbsp;| 
     <a href="order.html">我的订单</a>&nbsp;| 
@@ -44,9 +49,7 @@
      <strong class="red">￥ 0.00</strong>
      <a href="order.html">去结算</a> <img th:src="@{/images/youjian.jpg}" width="5" height="8" />
     </div><!--gouCar/-->
-    <div class="myChunlv">
-     <a href="vip.html"><img th:src="@{/images/mychunlv.jpg}" width="112" height="34" /></a>
-    </div><!--myChunlv/-->
+
    </div><!--gouwuche/-->
   </div><!--lsg/-->
   <div class="pnt">
@@ -204,39 +207,39 @@
   </ul><!--zhiList/-->
   <div class="zhifufangshi">
    <ul class="yinhang">
-    <li><input type="radio" /><img th:src="@{/images/yin1.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin2.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin3.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin4.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin5.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin6.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin7.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin8.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin9.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin1.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin2.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin3.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin4.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin5.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin6.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin7.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin8.gif" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin1.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin2.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin3.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin4.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin5.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin6.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin7.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin8.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin9.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin1.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin2.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin3.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin4.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin5.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin6.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin7.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin8.gif}" /></li>
     <div class="clears"></div>
    </ul>
   </div><!--zhzhifufangshii/-->
   <div class="zhifufangshi">
    <ul class="yinhang">
-    <li><input type="radio" /><img th:src="@{/images/yin7.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin8.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin9.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin1.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin2.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin3.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin4.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin5.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin6.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin7.gif" /></li>
-    <li><input type="radio" /><img th:src="@{/images/yin8.gif" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin7.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin8.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin9.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin1.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin2.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin3.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin4.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin5.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin6.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin7.gif}" /></li>
+    <li><input type="radio" /><img th:src="@{/images/yin8.gif}" /></li>
     <div class="clears"></div>
    </ul>
   </div><!--zhzhifufangshii/-->
