@@ -7,29 +7,180 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="780ff6c1-db47-449a-ba66-60c8d066be48" name="Default Changelist" comment="页面的显示问题解决以及shiro rememberme的问题">
-      <change beforePath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/src/main/java/com/edu/pojo/GoodsPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsTypePojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/MessagePojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderDetailPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/ShopCartPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/UserPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/com/edu/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-api/target/shop-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-details/src/main/java/com/edu/ShopDetailsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-details/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-user/shop-user.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-web/src/main/resources/templates/proinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-web/src/main/resources/templates/proinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/super-shop.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/src/main/java/service/IGoodsTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/GoodsTypePojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/MessagePojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderDetailPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/OrderPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/ShopCartPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/pojo/UserPojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/classes/service/IGoodsTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-api/target/shop-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-api/target/classes/com/edu/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/realm/MyRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/com/edu/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/classes/springmvc-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test-classes/spring-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/realm/MyRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/com/edu/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-biz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/classes/springmvc-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/HikariCP-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/activation-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ant-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ant-launcher-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/asm-5.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/aspectjrt-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/aspectjweaver-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/byte-buddy-1.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/c3p0-0.9.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/cas-client-core-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/cglib-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-beanutils-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-collections4-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-email-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-lang3-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/commons-math3-3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/curator-client-2.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/curator-framework-2.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/druid-1.1.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dubbo-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dubbo-spring-boot-autoconfigure-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/dubbo-spring-boot-starter-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ehcache-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/ehcache-core-2.6.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/guava-16.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/hibernate-core-5.4.9.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/httpcore-4.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jackson-annotations-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jackson-core-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jackson-databind-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jakarta.persistence-api-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jakarta.transaction-api-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jandex-2.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javax.mail-1.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/joda-time-2.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jsqlparser-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/netty-3.10.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/pagehelper-5.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/poi-3.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/quartz-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-cache-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-cas-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-config-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-ehcache-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-event-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-lang-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-spring-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shiro-web-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/shop-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/slf4j-log4j12-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/snakeyaml-1.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-aspects-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-autoconfigure-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-aop-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-data-jpa-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-jdbc-2.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-boot-starter-logging-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-data-commons-2.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-data-jpa-2.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-orm-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/lib/zookeeper-3.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-user/target/test/login.html" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +233,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-web/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -93,34 +244,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.edu" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="service" />
-      <recent name="com.edu.pojo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\ideab\shop\super-shop\shop-web\src\main\resources\templates" />
-      <recent name="D:\workspace\ideab\shop\super-shop\shop-details\src\main\java\com" />
-      <recent name="D:\workspace\ideab\shop\super-shop\shop-details\src\main\java" />
-      <recent name="D:\workspace\ideab\shop\super-shop\shop-details\src\main\java\com\edu" />
-      <recent name="D:\workspace\ideab\shop\super-shop\shop-details\src\main\resources" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopWebApplication">
     <configuration name="ShopDetailsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -242,6 +365,24 @@
       <item itemvalue="Tomcat Server.tomcat" />
     </list>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.097402595" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -256,7 +397,6 @@
       <workItem from="1578989783613" duration="36000" />
       <workItem from="1578990554243" duration="10811000" />
       <workItem from="1579071844115" duration="245000" />
-      <workItem from="1579095364876" duration="458000" />
     </task>
     <task id="LOCAL-00001" summary="架构">
       <created>1578989427614</created>
@@ -305,17 +445,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
