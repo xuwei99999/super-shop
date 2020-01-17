@@ -14,7 +14,7 @@ public class GoodsPojo implements Serializable {
     private double gprice; //价格
     private int gstock; //库存
     private int gtype; //商品类型
-    private int gclass;
+    private int gclass; //0.推荐商品1.促销商品
     //private int pageNum; //当前页
     //private int pageSize; //显示多少条记录
     public int getGid() {
